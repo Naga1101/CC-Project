@@ -1,0 +1,17 @@
+$TTL    604800
+@    IN    SOA    CC2023. root.CC2023. (
+                  4        ; Serial
+             604800        ; Refresh
+              86400        ; Retry
+            2419200        ; Expire
+             604800 )    ; Negative Cache TTL
+;
+@    IN    NS    Servidor1.CC2023.
+1.4.4.10.in-addr.arpa.    IN    PTR    Servidor1.CC2023.
+2.4.4.10.in-addr.arpa.    IN    PTR    Servidor2.CC2023.
+1.1.1.10.in-addr.arpa.    IN    PTR    Portatil1.CC2023.
+2.1.1.10.in-addr.arpa.    IN    PTR    Portatil2.CC2023.
+1.2.2.10.in-addr.arpa.    IN    PTR    PC1.CC2023.
+2.2.2.10.in-addr.arpa.    IN    PTR    PC2.CC2023.
+1.3.3.10.in-addr.arpa.    IN    PTR    Roma.CC2023.
+2.3.3.10.in-addr.arpa.    IN    PTR    Paris.CC2023.
